@@ -1,0 +1,6 @@
+*.kicad_pcb-bak
+*.dcm
+*.bak
+*.bck
+*.net
+*.sch-bak

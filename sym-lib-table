@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Interface_Display_Extra")(type "Legacy")(uri "${KIPRJMOD}/library/Interface_Display_Extra.lib")(options "")(descr ""))
+)
