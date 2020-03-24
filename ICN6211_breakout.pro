@@ -1,4 +1,4 @@
-update=23/02/2020 19:01:43
+update=17/03/2020 23:59:00
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,8 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[SchematicFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -21,18 +23,18 @@ LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=
 LastGenCADExportPath=
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
-RequireCourtyardDefinitions=0
-ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.15
 MinViaDiameter=0.4
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
+RequireCourtyardDefinitions=0
+ProhibitOverlappingCourtyards=1
 CopperEdgeClearance=0.01
 TrackWidth1=0.2
 TrackWidth2=0.15
@@ -74,13 +76,13 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu
-Type=0
-Enabled=0
+Name=GND
+Type=1
+Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
-Type=0
-Enabled=0
+Name=PWR
+Type=1
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -247,3 +249,5 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[sheetnames]
+1=00000000-0000-0000-0000-00005ebbf0ed:
